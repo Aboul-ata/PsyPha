@@ -1,0 +1,1333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns10111000111" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns10111000111" font="Open Sans" controllayout="npnxnanbsnfns10111000111" colorscheme="pxabnsnfns10111000111" string_table="pxabnsnfns10111000111" />
+    <layout name="pxabnsnfns10111000111" font="Open Sans" controllayout="pxabnsnfns10111000111" colorscheme="pxabnsnfns10111000111" string_table="pxabnsnfns10111000111" />
+    <layout name="npxnabnsnfns10111000111" font="Open Sans" controllayout="npxnabnsnfns10111000111" colorscheme="pxabnsnfns10111000111" string_table="pxabnsnfns10111000111" />
+    <layout name="npnxnanbnsnfns10111000111" font="Open Sans" controllayout="npnxnanbnsnfns10111000111" colorscheme="pxabnsnfns10111000111" string_table="pxabnsnfns10111000111" />
+    <layout name="pxabnsnfns10111000110" font="Open Sans" controllayout="pxabnsnfns10111000110" colorscheme="pxabnsnfns10111000111" string_table="pxabnsnfns10111000111" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Psychology for Pharma" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="search" value="true" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Open Sans" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns10111000111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111000111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns10111000111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns10111000111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111000110">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns10111000111">
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6DA1CE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2EEF8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD1E3F2" alpha="100" stop="0" />
+                <color rgb="0x9BC3E3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x125EAC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5189D8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0B5295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0B5295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD1E3F2" alpha="100" stop="0" />
+                <color rgb="0x9BC3E3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD6E6F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x79A9D2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0B5295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0B5295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x336AA3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6DA1CE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2EEF8" alpha="100" stop="0" />
+                <color rgb="0xABCCE7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB5D2EA" alpha="100" stop="0" />
+                <color rgb="0xD8E8F5" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD8E8F5" alpha="100" stop="0" />
+                <color rgb="0xB4D2EA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8DBEE5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0B5295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB0D2ED" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x74A4DE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6DA1CE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8CBCE5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8DBEE5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB0D2ED" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0B5295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xACCFED" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xACCFED" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE0EEF7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE0EDF6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x92C0E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x125EAC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5189D8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA0C8E9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD8E8F5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA0C8E9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0B5295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x92C0E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFCFDFE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0B5295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0B5295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x125EAC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFE3F4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x336AA3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x336AA3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8ABAE1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7AA9D2" alpha="100" stop="0" />
+                <color rgb="0xE7F1FA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6DA1CE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9E8F5" alpha="100" stop="0" />
+                <color rgb="0xB4D3EA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1D1EA" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD8E8F5" alpha="100" stop="0" />
+                <color rgb="0xB4D2EA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x336AA3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC9DFF1" alpha="100" stop="0" />
+                <color rgb="0x75A5D0" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD1E3F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5A8BB9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6CA1CE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6CA1CE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB2D1E9" alpha="100" stop="0" />
+                <color rgb="0x9AC3E3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA8CAE7" alpha="100" stop="0" />
+                <color rgb="0x91BEE0" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1EEF8" alpha="100" stop="0" />
+                <color rgb="0xE1EEF8" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xB1D0E9" alpha="100" stop="0" />
+                <color rgb="0xB8D4EB" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x95C2E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFE3F4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6DA1CE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1D1EA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6CA1CE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x336AA3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x336AA3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6DA1CE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2EEF8" alpha="100" stop="0" />
+                <color rgb="0xABCCE7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB5D2EA" alpha="100" stop="0" />
+                <color rgb="0xD8E8F5" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD8E8F5" alpha="100" stop="0" />
+                <color rgb="0xB4D2EA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA5C9E7" alpha="10" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0B5295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x79A9D2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA7CCEB" alpha="100" stop="0" />
+                <color rgb="0x8CBCE5" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD6E9F8" alpha="100" stop="0" />
+                <color rgb="0xD6E9F8" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD1E3F2" alpha="100" stop="0" />
+                <color rgb="0x9BC3E3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD1E3F2" alpha="100" stop="0" />
+                <color rgb="0x9BC3E3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6CA1CE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB0D0E9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA3C8E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDEEBF7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x9EC6E5" alpha="100" stop="0" />
+                <color rgb="0xA8CAE7" alpha="100" stop="128" />
+                <color rgb="0x9EC6E5" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns10111000111">
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="search">Search...</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="acc_skipnavigation">Skip navigation. Press enter to return to the slide.</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Open Sans">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6JLuPRXq3Cf" displaytext="Ch1" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6JLuPRXq3Cf.6j5v7zNKf7r" displaytext="Front matter" expand="false" type="slide" />
+            <slidelink slideid="_player.6JLuPRXq3Cf.6hWcYh6a1X6" displaytext="welcoming" expand="false" type="slide" />
+            <slidelink slideid="_player.6JLuPRXq3Cf.5k4bbbdyufP" displaytext="Course contents" expand="false" type="slide" />
+            <slidelink slideid="_player.6JLuPRXq3Cf.68ipGQHAwf8" displaytext="Aims" expand="false" type="slide" />
+            <slidelink slideid="_player.6JLuPRXq3Cf.5ZHUD7ybFgz" displaytext="what is psychology" expand="false" type="slide" />
+            <slidelink slideid="_player.6JLuPRXq3Cf.5ZKwf1Cny5D" displaytext="Perspectives in psychology" expand="false" type="slide" />
+            <slidelink slideid="_player.6JLuPRXq3Cf.61LaZDCCNY9" displaytext="Development of psychology" expand="false" type="slide" />
+            <slidelink slideid="_player.6JLuPRXq3Cf.6ll4yW10bN2" displaytext="Schools in psychology" expand="false" type="slide" />
+            <slidelink slideid="_player.6JLuPRXq3Cf.6qMDaBHnaIZ" displaytext="Methods in psychology" expand="false" type="slide" />
+            <slidelink slideid="_player.6JLuPRXq3Cf.6avVVX1pJTd" displaytext="Q1" expand="false" type="slide" />
+            <slidelink slideid="_player.6JLuPRXq3Cf.6OIjel0lgx7" displaytext="Q2" expand="false" type="slide" />
+            <slidelink slideid="_player.6JLuPRXq3Cf.6VVnqdEqRr5" displaytext="course editor" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6PJA9LfOR2p" displaytext="Ch2:Freud" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6PJA9LfOR2p.5VzcoM1Qo20" displaytext="Bio" expand="false" type="slide" />
+            <slidelink slideid="_player.6PJA9LfOR2p.5ZeFcWWCxlR" displaytext="Overview" expand="false" type="slide" />
+            <slidelink slideid="_player.6PJA9LfOR2p.5ZhhOiuSnh5" displaytext="Levels of mental life" expand="false" type="slide" />
+            <slidelink slideid="_player.6PJA9LfOR2p.66MdBSxzH83" displaytext="Provinces of the mind" expand="false" type="slide" />
+            <slidelink slideid="_player.6PJA9LfOR2p.6rmSrbkNjM0" displaytext="Defense Mechanisms" expand="false" type="slide" />
+            <slidelink slideid="_player.6PJA9LfOR2p.6BWTwSXAV0V" displaytext="Q1" expand="false" type="slide" />
+            <slidelink slideid="_player.6PJA9LfOR2p.62E3XFHS9GN" displaytext="Q2" expand="false" type="slide" />
+            <slidelink slideid="_player.6PJA9LfOR2p.6leP9VrkLsC" displaytext="end" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.60Wd7EYigXE" displaytext="Ch3:Eysenck" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.60Wd7EYigXE.5wk9xA2O4Q7" displaytext="Bio" expand="false" type="slide" />
+            <slidelink slideid="_player.60Wd7EYigXE.5WEkWlWQ4Pr" displaytext="Eysenck's Factor Theory" expand="false" type="slide" />
+            <slidelink slideid="_player.60Wd7EYigXE.6W6aECoArYA" displaytext="Criteria for Identifying Factors" expand="false" type="slide" />
+            <slidelink slideid="_player.60Wd7EYigXE.6GsOJ9qdU0V" displaytext="Hierarchy of Behavior Organization" expand="false" type="slide" />
+            <slidelink slideid="_player.60Wd7EYigXE.5eoHOj23msl" displaytext="Dimensions of Personality" expand="false" type="slide" />
+            <slidelink slideid="_player.60Wd7EYigXE.6aAUpIrWkne" displaytext="Q1" expand="false" type="slide" />
+            <slidelink slideid="_player.60Wd7EYigXE.5hkM2cBcjXb" displaytext="Q2" expand="false" type="slide" />
+            <slidelink slideid="_player.60Wd7EYigXE.5d3s2oY1vY8" displaytext="end" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6BvvkaZIrIB" displaytext="Ch4: Personality pathology" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6BvvkaZIrIB.5ZvaVsBeigH" displaytext="Introduction" expand="false" type="slide" />
+            <slidelink slideid="_player.6BvvkaZIrIB.6g3X9lCQ6Wt" displaytext="General Personality Disorder Criteria" expand="false" type="slide" />
+            <slidelink slideid="_player.6BvvkaZIrIB.6jNuj33tZ1X" displaytext="The 10 PDs" expand="false" type="slide" />
+            <slidelink slideid="_player.6BvvkaZIrIB.5Y1CAJNK57L" displaytext="Q1" expand="false" type="slide" />
+            <slidelink slideid="_player.6BvvkaZIrIB.6XszkAr5hzO" displaytext="Q2" expand="false" type="slide" />
+            <slidelink slideid="_player.6BvvkaZIrIB.65SIK4bOOws" displaytext="thanks" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.61uCwExoGnJ" displaytext="Ch5: Behavioral modification" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.61uCwExoGnJ.5yzjGPlIUwj" displaytext="Classical Conditoning" expand="false" type="slide" />
+            <slidelink slideid="_player.61uCwExoGnJ.5rblRGMwX0N" displaytext=" Pavlov’s dog studies" expand="false" type="slide" />
+            <slidelink slideid="_player.61uCwExoGnJ.5rjEqxIbkJF" displaytext="TECHNIQUES BASED ON CLASSICAL CONDITIONING " expand="false" type="slide" />
+            <slidelink slideid="_player.61uCwExoGnJ.613GToGGTWW" displaytext="History2" expand="false" type="slide" />
+            <slidelink slideid="_player.61uCwExoGnJ.5p7qqbbbxlq" displaytext="Operant Conditioning" expand="false" type="slide" />
+            <slidelink slideid="_player.61uCwExoGnJ.6Jvox7toHks" displaytext="Techniques1" expand="false" type="slide" />
+            <slidelink slideid="_player.61uCwExoGnJ.6lmBcZq2rXS" displaytext="techniques2" expand="false" type="slide" />
+            <slidelink slideid="_player.61uCwExoGnJ.6FW9QrO95MO" displaytext="Q1" expand="false" type="slide" />
+            <slidelink slideid="_player.61uCwExoGnJ.5zOBNT15TTE" displaytext="Q2" expand="false" type="slide" />
+            <slidelink slideid="_player.61uCwExoGnJ.6QB4z8WsQ13" displaytext="end" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6EWZQDuyOPB" displaytext="Ch6:Cognitive modification" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6EWZQDuyOPB.6VZARnhqCue" displaytext="Founders of cognitive therapy" expand="false" type="slide" />
+            <slidelink slideid="_player.6EWZQDuyOPB.5WOCAwWkcyw" displaytext="Goal of cognitive therapy" expand="false" type="slide" />
+            <slidelink slideid="_player.6EWZQDuyOPB.6rKTAUYkmrf" displaytext="Importance of cognition" expand="false" type="slide" />
+            <slidelink slideid="_player.6EWZQDuyOPB.6XG9Q7CAunH" displaytext="Example" expand="false" type="slide" />
+            <slidelink slideid="_player.6EWZQDuyOPB.5cn1WD1zWEY" displaytext="Revising cognitions" expand="false" type="slide" />
+            <slidelink slideid="_player.6EWZQDuyOPB.62mVEtHwzsM" displaytext="Aproach to cognitive modification" expand="false" type="slide" />
+            <slidelink slideid="_player.6EWZQDuyOPB.6CYV0cFusZP" displaytext="Dysfunctional thought record" expand="false" type="slide" />
+            <slidelink slideid="_player.6EWZQDuyOPB.5saCkYQrQA5" displaytext="Common Thought Distortions" expand="false" type="slide" />
+            <slidelink slideid="_player.6EWZQDuyOPB.6KA1e2HRxi0" displaytext="Q1" expand="false" type="slide" />
+            <slidelink slideid="_player.6EWZQDuyOPB.5pGvUFD9ON3" displaytext="Q2" expand="false" type="slide" />
+            <slidelink slideid="_player.6EWZQDuyOPB.65Yzq1hmt8g" displaytext="end of chapter" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5WJfXx36Js0" displaytext="Ch7: Effective Communication Skills" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5WJfXx36Js0.6bKMY0kOIH9" displaytext="Effective Communication Skills" expand="false" type="slide" />
+            <slidelink slideid="_player.5WJfXx36Js0.6enTBEzQVjf" displaytext="General Skills" expand="false" type="slide" />
+            <slidelink slideid="_player.5WJfXx36Js0.5yznkr2GC8b" displaytext="Specific Behaviors1" expand="false" type="slide" />
+            <slidelink slideid="_player.5WJfXx36Js0.5x28M4jtV6f" displaytext="Specific Behaviors2" expand="false" type="slide" />
+            <slidelink slideid="_player.5WJfXx36Js0.60GWTcv2lwS" displaytext="Specific Behaviors3" expand="false" type="slide" />
+            <slidelink slideid="_player.5WJfXx36Js0.68gXk8d528E" displaytext="Specific Behaviors4" expand="false" type="slide" />
+            <slidelink slideid="_player.5WJfXx36Js0.6fXtxBR0zqu" displaytext="Specific Behaviors5" expand="false" type="slide" />
+            <slidelink slideid="_player.5WJfXx36Js0.6cgJglHvSF8" displaytext="Specific Behaviors6" expand="false" type="slide" />
+            <slidelink slideid="_player.5WJfXx36Js0.6J2s3MtdYSN" displaytext="There are a few general rules for the interviewer: face the client, appear attentive, minimize restlessness, and display appropriate facial expressions." expand="false" type="slide" />
+            <slidelink slideid="_player.5WJfXx36Js0.6lqhB5TKMq4" displaytext="Being self-aware simply mean that the interviewer shouldn’t talk much during the interview" expand="false" type="slide" />
+            <slidelink slideid="_player.5WJfXx36Js0.6k8hkzxNtxM" displaytext="Untitled Slide" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+    <search>
+      <slidetext slideid="6JLuPRXq3Cf.6j5v7zNKf7r" slidebank="false" type="slide">psychology for pharmacists and mental health professionals  compiled by dr. mohammad aboul ata 2022 e-book </slidetext>
+      <slidetext slideid="6JLuPRXq3Cf.6hWcYh6a1X6" slidebank="false" type="slide">welcome to the psychology course. i hope you enjoy this semester kind regards dr. mohammad aboul-ata let's start please click next once more </slidetext>
+      <slidetext slideid="6JLuPRXq3Cf.5k4bbbdyufP" slidebank="false" type="slide">course contents 1- what is psychology 2- psychoanalysis perspective of personality 3- dispositional perspective of personality 4- personality pathology 5- behavioral modification 6- cognitive modification 7- effective communication skills حقوق انتاج هذا المقرر حصرية ولايجوز اعادة الانتاج أو النشر بأي طريقة الا باذن كتابي من المُعد </slidetext>
+      <slidetext slideid="6JLuPRXq3Cf.68ipGQHAwf8" slidebank="false" type="slide">this course aims •	what can psychology contribute to health and health care? •	what is psychology and what are the main approaches to psychological thinking and research? •	who are psychologists and what do they contribute to the promotion of health and well-being? •	how can we learn to apply psychology to all aspects of health and health care? see related article see related article see related article see related article see related article see related article ch1 mind map ch1 mind map ch1 mind map ch1 mind map ch1 mind map ch1 mind map </slidetext>
+      <slidetext slideid="6JLuPRXq3Cf.5ZHUD7ybFgz" slidebank="false" type="slide">what is psychology? psychology is the study of human behaviour. contribute to our understanding of ourselves, and our relationships with other people. appreciating how people's comprehension and needs vary. gaining a better understanding of communication processes so that we can identify ways of improving the therapeutic relationship.  identifying factors that affect how people cope with such situations as acute and chronic illnesses. why is it important in health care? </slidetext>
+      <slidetext slideid="6JLuPRXq3Cf.5ZKwf1Cny5D" slidebank="false" type="slide">different perspectives in psychology similar to psychology which professions have developed independently  (personality, cognition, clinical, etc).  include medicine, physiotherapy, while nursing has been subdivided into an adult, child, mental health, and learning disability.  various health and social care professions have developed independently.  </slidetext>
+      <slidetext slideid="6JLuPRXq3Cf.61LaZDCCNY9" slidebank="false" type="slide">the development of psychology from philosophy to psychology as a scientific discipline human beings are objects of nature, sharing common functions or attributes that can be studied in an objective, scientific way. introspection (psychoanalysis) and observation (behaviorism).  social psychology and clinical psychology as applied branches. cognitive psychology: it uses up-to-date technologies and links psychologists with those working in other disciplines such as artificial intelligence and neuroscience.  </slidetext>
+      <slidetext slideid="6JLuPRXq3Cf.6ll4yW10bN2" slidebank="false" type="slide">schools in psychology cognitive science  (cognitive psychology):  the study of cognition (mental processes) including memory, perception, information processing, psychophysiology, and psychoneuroimmunology. behavioural psychology  (classical and operant)(based on behaviourism):  the study of learning by observing the direct effects of external environmental stimuli on behaviour and behaviour change. psychodynamic psychology (developed from psychoanalysis):  the study of the influence of childhood experiences on current psychological and emotional states. humanistic psychology the subjective study of human experience (maslow hierarchy). social psychology the study of human behaviour in social settings (naturalistic experiments). </slidetext>
+      <slidetext slideid="6JLuPRXq3Cf.6qMDaBHnaIZ" slidebank="false" type="slide">research methods in psychology quantitative methods. experimental methods. survey methods. observation methods.  qualitative methods.   click these buttons </slidetext>
+      <slidetext slideid="6JLuPRXq3Cf.6avVVX1pJTd" slidebank="false" type="slide">1- ……..  is the study of human behaviour, thought processes and emotions. biology	 biology	 biology	 biology	 biology	 biology	 physiology physiology physiology physiology physiology physiology psychology psychology psychology psychology psychology psychology </slidetext>
+      <slidetext slideid="6JLuPRXq3Cf.6OIjel0lgx7" slidebank="false" type="slide">true true true true true true false false false false false false behavioural psychology is the study of cognition (mental processes) including memory, perception, information processing, psychophysiology and psychoneuroimmunology </slidetext>
+      <slidetext slideid="6JLuPRXq3Cf.6VVnqdEqRr5" slidebank="false" type="slide">dr. mohammad aboul-ata associate professor of clinical psychology google scholar google scholar google scholar google scholar google scholar google scholar researchgate researchgate researchgate researchgate researchgate researchgate orcid orcid orcid orcid orcid orcid </slidetext>
+      <slidetext slideid="6PJA9LfOR2p.5VzcoM1Qo20" slidebank="false" type="slide">psychoanalysis sigmund freud he was born either on march 6 or may 6, 1856, in freiberg, moravia, which is now part of the czech republic. freud was the firstborn child  although his father had two grown sons, emanuel and philipp, from a previous marriage. freud had seven other children within 10 years chapter edited by dr. mohammad aboul-ata </slidetext>
+      <slidetext slideid="6PJA9LfOR2p.5ZeFcWWCxlR" slidebank="false" type="slide">overview of psychoanalytic theory freud, of course, was fortunate that his name did not become indelibly tied to cocaine. instead, his name has become associated with psychoanalysis, the most famous of all personality theories. freud’s understanding of human personality was based on his experiences with patients, his analysis of his own dreams, and his vast readings in the various sciences and humanities. freud relied more on deductive reasoning than on rigorous research methods, and he made observations subjectively and on a relatively small sample of patients, most of whom were from the upper-middle and upper classes. he utilized the case study approach almost exclusively, typically formulating hypotheses after the facts of the case were known. </slidetext>
+      <slidetext slideid="6PJA9LfOR2p.5ZhhOiuSnh5" slidebank="false" type="slide">levels of mental life the conscious (as the region of the brain appears on the sea surface) which plays a relatively minor role in psychoanalytic theory, can be defined as those mental elements in awareness at any given point in time. the preconscious level of the mind contains all those elements that are not conscious but can become conscious either quite readily or with some difficulty. the unconscious (as the region of the brain appears under the sea surface) contains all those drives, urges, or instincts that are beyond our awareness but that nevertheless motivate most of our words, feelings, and actions. </slidetext>
+      <slidetext slideid="6PJA9LfOR2p.66MdBSxzH83" slidebank="false" type="slide">provinces of the mind the id at the core of personality and completely unconscious is the psychical region called the id, a term derived from the impersonal pronoun meaning “the it,” or the not-yet- owned component of personality. the ego, or i, is the only region of the mind in contact with reality. it grows out of the id during infancy and becomes a person’s sole source of communication with the external world. the superego, or above-i grows out of the ego, and like the ego, it has no energy of its own. how­ever, the superego differs from the ego in one important respect-it has no contact with the outside world and therefore is unrealistic in its demands for perfection </slidetext>
+      <slidetext slideid="6PJA9LfOR2p.6rmSrbkNjM0" slidebank="false" type="slide">defense mechanisms although defense mechanisms are normal and universally used, when carried to an extreme they lead to compulsive, repetitive, and neurotic behavior. </slidetext>
+      <slidetext slideid="6PJA9LfOR2p.6BWTwSXAV0V" slidebank="false" type="slide">the …………… contains all those drives, urges, or instincts that are beyond our awareness but that nevertheless motivate most of our words, feelings, and actions preconscious preconscious preconscious preconscious preconscious preconscious ego ego ego ego ego ego unconscious unconscious unconscious unconscious unconscious unconscious </slidetext>
+      <slidetext slideid="6PJA9LfOR2p.62E3XFHS9GN" slidebank="false" type="slide">true true true true true true false false false false false false in displacement, however, people can redirect their unacceptable urges onto a variety of people or objects so that the original impulse is disguised or concealed. </slidetext>
+      <slidetext slideid="6PJA9LfOR2p.6leP9VrkLsC" slidebank="false" type="slide">thanks for watching we have finished this chapter dr. mohammad aboul-ata </slidetext>
+      <slidetext slideid="60Wd7EYigXE.5wk9xA2O4Q7" slidebank="false" type="slide">hans jurgen eysenck was born in berlin on march 4, 1916, the only child of a theatrical family. his mother was ruth werner, a starlet at the time of eysenck’s birth.  ruth werner later became a german silent film star under the stage name of helga molander.  eysenck: “saw very little of my parents, who divorced when i was 4, and who had little feeling for me, an emotion i reciprocated” edited by  dr. mohammad aboul-ata </slidetext>
+      <slidetext slideid="60Wd7EYigXE.5WEkWlWQ4Pr" slidebank="false" type="slide">eysenck's factor theory the personality theory of hans eysenck has strong psychometric and biological components. eysenck contended that psychometric sophistication alone is not sufficient to measure the structure of human personality. however, personality dimensions arrived at through factor analytic methods are sterile and meaningless unless they have been shown to possess a biological existence. </slidetext>
+      <slidetext slideid="60Wd7EYigXE.6W6aECoArYA" slidebank="false" type="slide">criteria for identifying factors first, psychometric evidence for the factor’s existence must be established. a corollary to this criterion is that the factor must be reliable and replicable.  a second criterion is that the factor must also possess heritability and must fit an established genetic model. third, the factor must make sense from a theoretical view.  the final criterion for the existence of a factor is that it must possess social relevance; that is, it must be demonstrated that mathematically derived factors have a relationship (not necessarily causal) with such socially relevant variables. </slidetext>
+      <slidetext slideid="60Wd7EYigXE.6GsOJ9qdU0V" slidebank="false" type="slide">hierarchy of behavior organization eysenck (1947, 1994c) recognized a four-level hierarchy of behavior organization. at the lowest level are specific acts or cognitions. a student finishing a reading assignment would be an example of a specific response. at the second level are the habitual acts. for example, if a student frequently keeps at an assignment until it is finished, this behavior becomes a habitual response. the third level of behavior. eysenck (1981) defined as traits. for example, students would have the trait of persistence if they habitually complete class assignments and keep working on other endeavors until they are finished. the fourth level, that of types or super factors. a type is made up of several interrelated traits. </slidetext>
+      <slidetext slideid="60Wd7EYigXE.5eoHOj23msl" slidebank="false" type="slide">dimensions of personality how many general super factors exist? three personality dimensions are extraversion (e), neuroticism (n), and psychoticism (p) extraverts are characterized primarily by sociability and impulsiveness but also by jocularity, liveliness, quick-wittedness, optimism, and other traits indicative of people who are rewarded for their association with others. like extraversion/introversion, factor n has a strong hereditary component. eysenck (1967) reported several studies that have found evidence of a genetic basis for such neurotic traits as anxiety, hysteria, and obsessive-compulsive disorders.  p is a bipolar factor, with psychoticism on one pole and superego on the other. high p scorers are often egocentric, cold, nonconforming, impulsive, hostile, aggressive, suspicious, psychopathic, and antisocial. </slidetext>
+      <slidetext slideid="60Wd7EYigXE.6aAUpIrWkne" slidebank="false" type="slide">eysenck (1967) reported several studies that have found evidence of a genetic basis for such neurotic traits as ……… extraversion extraversion extraversion extraversion extraversion extraversion introversion introversion introversion introversion introversion introversion anxiety anxiety anxiety anxiety anxiety anxiety </slidetext>
+      <slidetext slideid="60Wd7EYigXE.5hkM2cBcjXb" slidebank="false" type="slide">true true true true true true false false false false false false according to eysenck, personality factors p, e, and n all have powerful biological determinants </slidetext>
+      <slidetext slideid="60Wd7EYigXE.5d3s2oY1vY8" slidebank="false" type="slide">thanks for watching </slidetext>
+      <slidetext slideid="6BvvkaZIrIB.5ZvaVsBeigH" slidebank="false" type="slide">personality pathology by dr. mohammad aboul-ata in this chapter, we will explore personality disorders.  video video video video video video first of all, watch this video, and don't forget to open captions. you should select the arabic language as the subtitle.  </slidetext>
+      <slidetext slideid="6BvvkaZIrIB.6g3X9lCQ6Wt" slidebank="false" type="slide">general personality disorder criteria how do you know if someone has a personality disorder? appears a pattern of inner experience and behavior that deviates markedly from the expectations of the individual’s culture. this pattern is shown in at least two of the following behaviors: cognition affectivity interpersonal functioning impulse control. inflexibility in situations </slidetext>
+      <slidetext slideid="6BvvkaZIrIB.6jNuj33tZ1X" slidebank="false" type="slide">click here click here click here click here click here click here </slidetext>
+      <slidetext slideid="6BvvkaZIrIB.5Y1CAJNK57L" slidebank="false" type="slide">the symptom of “suspects, without sufficient basis, that others are exploiting, harming, or deceiving him or her” is a diagnostic criterion of……… paranoid pd paranoid pd paranoid pd paranoid pd paranoid pd paranoid pd schizoid pd schizoid pd schizoid pd schizoid pd schizoid pd schizoid pd general pd general pd general pd general pd general pd general pd </slidetext>
+      <slidetext slideid="6BvvkaZIrIB.6XszkAr5hzO" slidebank="false" type="slide">true true true true true true false false false false false false schizoid personality disorder is a pattern of acute discomfort in close relationships, cognitive or perceptual distortions, and eccentricities of behavior. </slidetext>
+      <slidetext slideid="6BvvkaZIrIB.65SIK4bOOws" slidebank="false" type="slide">dr. mohammad aboul-ata </slidetext>
+      <slidetext slideid="61uCwExoGnJ.5yzjGPlIUwj" slidebank="false" type="slide">ivan pavlov whose contributions took place in russia in the late 1800s and early 1900s. pavlov did not begin his career with aspirations related to psychology at all. in fact, he was a physiologist who studied the digestive systems of dogs.  routinely, pavlov and his coworkers would present food to dogs and measure the amount of saliva the dogs produced-a natural, automatic response of any canine shown a potential meal. at one point, he noticed that the dogs were salivating before the food was presented pavlov first saw this untimely salivating as a problem, and he tried to minimize it so that it wouldn’t adversely affect the digestion data he was trying to collect later, he came to realize that he had inadvertently come across a remarkable phenomenon, which was ultimately labeled classical conditioning. </slidetext>
+      <slidetext slideid="61uCwExoGnJ.5rblRGMwX0N" slidebank="false" type="slide">classical conditioning is the type exemplified by pavlov’s dog studies the dog will salivate when food is presented. so food is the unconditioned stimulus. the dog notices that when a certain bell rings food comes a few seconds later the sound of the bell, which had originally evoked no response at all in the dog, has become a conditioned stimulus </slidetext>
+      <slidetext slideid="61uCwExoGnJ.5rjEqxIbkJF" slidebank="false" type="slide">techniques based on classical conditioning  exposure therapy exposure therapy is the clinical psychologist’s version of “facing your fears.” phobias, according to the behavioral therapist, are best understood as the result of classical conditioning a particular stimulus (spiders, heights, the dark, etc.) becomes paired with an aversive outcome (anxiety, pain, etc.) clinical example let’s reconsider wayne, who was described above as having a fear of dogs as a result of a vicious attack. through exposure therapy, his behavior therapist gives him exactly that opportunity, and the result of the expo­sure to dog-related stimuli is that wayne’s association between dogs and fear is unlearned. systematic desensitization a treatment also used primarily for phobias and other anxiety disorders, is quite similar to exposure therapy  but rather than simply breaking the association between the feared object and the aversive feeling, systematic desensitization involves re-pairing (or counterconditioning) the feared object with a new response that is incompatible with anxiety in fact, the first step of systematic desensitization is relaxation training, in which the behavior therapist teaches the client progressive relaxation techniques in which various muscles are systematically tensed and relaxed. assertiveness training assertiveness training is a specific application of classical conditioning that targets clients’ social anxieties. in practical terms, it can help clients insist on appropriate service (in a restaurant, for example); ask someone out on a date; request a raise at work; communicate effectively with health care providers; or say no to an unreasonable demand from a friend or loved one. assertiveness training definitely includes elements of exposure therapy, and it may include elements of systematic desensitization as well  </slidetext>
+      <slidetext slideid="61uCwExoGnJ.613GToGGTWW" slidebank="false" type="slide">edward lee thorndike  essentially, thorndike’s law of effect stated that all organisms pay attention to the consequences (or effects) of their actions.  b. f. skinner skinner effectively devoted much of his life’s work to experimentation on the law of effect, and he made the case that operant conditioning </slidetext>
+      <slidetext slideid="61uCwExoGnJ.5p7qqbbbxlq" slidebank="false" type="slide">operant conditioning  “the basic principle of the operant approach is that behavior is a function of its consequences”  operant conditioning is a more active style of learning than classical conditioning. in effect, all our actions are governed by contingencies,“if..., then...” statements </slidetext>
+      <slidetext slideid="61uCwExoGnJ.6Jvox7toHks" slidebank="false" type="slide">techniques based on operant conditioning  contingency management contingencies are the “if, then ...” statements that, according to behavioral therapists, govern our behavior so if the goal is to change behavior, a powerful way to do so is to change the contingencies controlling it. all behavior occurs because of its consequences, and if those consequences change, the behavior will change correspondingly </slidetext>
+      <slidetext slideid="61uCwExoGnJ.6lmBcZq2rXS" slidebank="false" type="slide">techniques based on operant conditioning  reinforcement and punishment positive reinforcement means “getting something good” (such as food), whereas  negative reinforcement means “losing something bad” (such as pain).  positive punishment means “get­ting something bad,” whereas  negative punishment means “losing something good.” click here for more techniques click here for more techniques click here for more techniques click here for more techniques click here for more techniques click here for more techniques </slidetext>
+      <slidetext slideid="61uCwExoGnJ.6FW9QrO95MO" slidebank="false" type="slide">the primary goal of behavioral psychotherapy is observable ……….change biological biological biological biological biological biological cognitive cognitive cognitive cognitive cognitive cognitive behavioral behavioral behavioral behavioral behavioral behavioral </slidetext>
+      <slidetext slideid="61uCwExoGnJ.5zOBNT15TTE" slidebank="false" type="slide">true true true true true true false false false false false false reinforcement and punishment are the “if, then” statements that, according to behavioral thera­pists, govern our behavior </slidetext>
+      <slidetext slideid="61uCwExoGnJ.6QB4z8WsQ13" slidebank="false" type="slide">we have finished this chapter </slidetext>
+      <slidetext slideid="6EWZQDuyOPB.6VZARnhqCue" slidebank="false" type="slide">aaron beck albert ellis the eventual leaders of the cognitive therapy movement—aaron beck and albert ellis—grew disillusioned with the psychoanalytic method in which they and most of their cohorts were trained.  </slidetext>
+      <slidetext slideid="6EWZQDuyOPB.5WOCAwWkcyw" slidebank="false" type="slide">goal of cognitive therapy simply put, the goal of cognitive therapy is logical thinking psychological problems arise from illogical cognitions for example, an illogical (or irrational or unrealistic) interpretation of a life event-a relationship breakup, an f on an exam, a comment from a friend-can cause crippling depression or anxiety.  </slidetext>
+      <slidetext slideid="6EWZQDuyOPB.6rKTAUYkmrf" slidebank="false" type="slide">the importance of cognition when they refer to cognitions, cognitive therapists use lots of terms interchangeably: thoughts, beliefs, interpretations, and assumptions, to name a few when someone asks, “why are you so happy?” or “why are you so sad?,” we typically point to a recent event that made us happy.  we portray it as a two-step model in which things happen and those things directly influence our feelings. event something happens feeling mood is directly influenced events don’t make us happy or sad. instead, the way we think about those events does. let's see how on the next slide. 1 event something happens 2 cognition interpretationof the eventoccurs 3 feeling interpretation influences mood </slidetext>
+      <slidetext slideid="6EWZQDuyOPB.6XG9Q7CAunH" slidebank="false" type="slide">consider an unexpected overnight heavy rains. at the same time, two neighbors wake up, look out their windows, and see the ground covered in 6 inches water. one of them has an exam the next morning and he didn't study. he thinking "great, i am so happy". i have the reason to reprieve the exam.  his next-door neighbor studied well and felt sad about this event. </slidetext>
+      <slidetext slideid="6EWZQDuyOPB.5cn1WD1zWEY" slidebank="false" type="slide">revising cognitions cognitive triad thoughts about the self, the external world, and the future when all three of these beliefs are negative, they produce depression </slidetext>
+      <slidetext slideid="6EWZQDuyOPB.62mVEtHwzsM" slidebank="false" type="slide">approach to cognitive modification (therapy) the essence of beck’s approach to cognitive therapy, like ellis’s, is to increase the extent to which the client thinks logically. and like ellis’s, beck’s approach incorporates a way of organizing clients’ experiences into columns on a written page. </slidetext>
+      <slidetext slideid="6EWZQDuyOPB.6CYV0cFusZP" slidebank="false" type="slide">dysfunctional thought record  a brief description of the event/situation automatic thoughts about the event/situation (and the extent to which the client believes these thoughts) emotions (and their intensity) an adaptive response (identifying the distortion in the automatic thought and challenging it) outcome (emotions after the adaptive response has been identified and the extent to which the client still believes the automatic thoughts). </slidetext>
+      <slidetext slideid="6EWZQDuyOPB.5saCkYQrQA5" slidebank="false" type="slide">common thought distortions all-or-nothing thinking catastrophizing magnification/minimization personalization overgeneralization mental filtering mind reading </slidetext>
+      <slidetext slideid="6EWZQDuyOPB.6KA1e2HRxi0" slidebank="false" type="slide">that three particular cognitions-thoughts about the self, the external world, and the future-all contribute to our mental health cognitive triad	  cognitive triad	  cognitive triad	  cognitive triad	  cognitive triad	  cognitive triad	  triarchic triarchic triarchic triarchic triarchic triarchic third cognition third cognition third cognition third cognition third cognition third cognition </slidetext>
+      <slidetext slideid="6EWZQDuyOPB.5pGvUFD9ON3" slidebank="false" type="slide">true true true true true true false false false false false false simply put, the goal of cognitive therapy is logical thinking </slidetext>
+      <slidetext slideid="5WJfXx36Js0.6bKMY0kOIH9" slidebank="false" type="slide">effective communication skills the most pivotal element of a clinical interview is the person who conducts it. a skilled interviewer is not only a master of the technical and practical aspects of the interview but also demonstrates broad-based wisdom about the human interaction it entails. </slidetext>
+      <slidetext slideid="5WJfXx36Js0.6enTBEzQVjf" slidebank="false" type="slide">general skills quieting yourself  being self-aware positive working relationships  </slidetext>
+      <slidetext slideid="5WJfXx36Js0.5yznkr2GC8b" slidebank="false" type="slide">specific behaviors eye contact perhaps it’s an obvious point, but interviewers must realize the connection between attentive listening and eye contact. eye contact not only facilitates listening, it also communicates listening.  in some cultures, eye contact that lasts too long or is too intense may communicate threat, seduction, or other messages that an interviewer would be wise to avoid. on the other hand, scarce, inconsistent eye contact may be viewed by some clients as inattentive or insulting </slidetext>
+      <slidetext slideid="5WJfXx36Js0.5x28M4jtV6f" slidebank="false" type="slide">specific behaviors body language there are a few general rules for the interviewer: face the client, appear attentive, minimize restlessness, display appropriate facial expressions, and so on. but even these basic rules are subject to cultural interpretation, and a client may not feel understood if an interviewer unknowingly communicates disinterest through body language.  </slidetext>
+      <slidetext slideid="5WJfXx36Js0.60GWTcv2lwS" slidebank="false" type="slide">specific behaviors vocal qualities they use pitch, tone, volume, and fluctuation in their own voices to let clients know that their words and feelings are being deeply appreciated.  </slidetext>
+      <slidetext slideid="5WJfXx36Js0.68gXk8d528E" slidebank="false" type="slide">specific behaviors verbal tracking effective interviewers are able to repeat keywords and phrases back to their clients to ensure the clients that they have been accurately heard. </slidetext>
+      <slidetext slideid="5WJfXx36Js0.6fXtxBR0zqu" slidebank="false" type="slide">specific behaviors referring to the client by the proper name inappropriately using nicknames or shortening names. omitting a “middle” name that is in fact an essential part of the first name , or addressing a client by first name rather than a title followed by surname are pre­sumptuous mistakes that can jeopardize the client’s sense of comfort with the interviewer. </slidetext>
+      <slidetext slideid="5WJfXx36Js0.6cgJglHvSF8" slidebank="false" type="slide">specific behaviors personal space people from diverse cultures have also developed measurable differences in the physical distance or “personal space” they maintain. individuals of middle east and latino/latina cultures tend to stand or sit closer together,  whereas north american and british people tend to maintain more space between themselves. </slidetext>
+      <slidetext slideid="5WJfXx36Js0.6J2s3MtdYSN" slidebank="false" type="slide">there are a few general rules for the interviewer: face the client, appear attentive, minimize restlessness, and display appropriate facial expressions. eye contact eye contact eye contact eye contact eye contact eye contact body language body language body language body language body language body language vocal qualities vocal qualities vocal qualities vocal qualities vocal qualities vocal qualities </slidetext>
+      <slidetext slideid="5WJfXx36Js0.6lqhB5TKMq4" slidebank="false" type="slide">true true true true true true false false false false false false being self-aware simply mean that the interviewer shouldn’t talk much during the interview </slidetext>
+      <slidetext slideid="5WJfXx36Js0.6k8hkzxNtxM" slidebank="false" type="slide">welcome again, now, we have finished this course. i hope you enjoyed this new teaching method. with my best wishes. dr mohammad aboul-ata </slidetext>
+    </search>
+  </nav_data>
+  <resource_data description="" />
+  <transcript_data />
+  <glossary_data />
+</bwFrame>
